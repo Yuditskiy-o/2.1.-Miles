@@ -1,8 +1,8 @@
 public class Miles {
     public static void main(String[] args) {
-        int ticketprice = 3500;
-        int milefactor = 20;
-        int totalmiles = ticketprice / milefactor;
+        int ticketpriceInKopecks = 650000;
+        int milefactorInKopecks = 2000;
+        int totalmiles = ticketpriceInKopecks / milefactorInKopecks;
         System.out.println("Total bonus miles — " + totalmiles);
     }
 }
